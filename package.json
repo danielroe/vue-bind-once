@@ -1,0 +1,76 @@
+{
+  "name": "vue-bind-once",
+  "version": "0.1.0",
+  "description": "A tiny, SSR-safe directive for binding random data to an element.",
+  "keywords": [
+    "vue",
+    "directive",
+    "ssr"
+  ],
+  "repository": "danielroe/vue-bind-once",
+  "license": "MIT",
+  "author": {
+    "name": "Daniel Roe <daniel@roe.dev>",
+    "url": "https://github.com/danielroe"
+  },
+  "sideEffects": false,
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "dist/index.d.ts",
+    "!**/*.map"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "lint": "yarn lint:all:eslint && yarn lint:all:prettier",
+    "lint:all:eslint": "yarn lint:eslint --ext .js,.ts .",
+    "lint:all:prettier": "yarn lint:prettier \"**/*.{js,json,ts}\"",
+    "lint:eslint": "eslint --fix",
+    "lint:prettier": "prettier --write --loglevel warn",
+    "prepare": "husky install && yarn build",
+    "prepublishOnly": "yarn lint && yarn test && pinst --disable",
+    "release": "release-it",
+    "test": "vitest",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable"
+  },
+  "dependencies": {
+    "scule": "^0.2.1"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "c8": "^7.11.0",
+    "codecov": "^3.8.3",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
+    "esbuild": "0.14.23",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "expect-type": "^0.13.0",
+    "happy-dom": "^2.39.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "pinst": "^3.0.0",
+    "prettier": "^2.5.1",
+    "release-it": "^14.12.5",
+    "semver": "^7.3.5",
+    "typescript": "^4.5.5",
+    "unbuild": "^0.6.9",
+    "vite": "^2.8.4",
+    "vitest": "^0.5.1",
+    "vue": "^3.2.31"
+  },
+  "peerDependencies": {
+    "vue": "^3"
+  },
+  "build": {
+    "externals": [
+      "vue"
+    ]
+  }
+}
