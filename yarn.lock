@@ -6714,6 +6714,8 @@ __metadata:
     vite: ^2.8.4
     vitest: ^0.5.1
     vue: ^3.2.31
+  peerDependencies:
+    vue: ^3
   languageName: unknown
   linkType: soft
 
