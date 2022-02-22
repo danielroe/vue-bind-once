@@ -3313,9 +3313,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^2.40.0":
-  version: 2.40.0
-  resolution: "happy-dom@npm:2.40.0"
+"happy-dom@npm:^2.40.2":
+  version: 2.40.2
+  resolution: "happy-dom@npm:2.40.2"
   dependencies:
     css.escape: ^1.5.1
     he: ^1.1.1
@@ -3324,7 +3324,7 @@ __metadata:
     webidl-conversions: ^7.0.0
     whatwg-encoding: ^1.0.5
     whatwg-mimetype: ^2.3.0
-  checksum: 4cc24ef983fb7c5892740de9a7197661c9c6a58e00835ef12a1dd8e71093734e4eecce8f5fbc37bcd9029e6ffdde04b45cc313c0de5d291d582cba2b572faa86
+  checksum: 99c89269e2011bccda5b86b82404d521d2757aa1348a260d1f6172a5a5766996cc158a28318bea291c2ccbf905e6f1d9cad548f4e2b9972f2055ce5f37c2afed
   languageName: node
   linkType: hard
 
@@ -6701,7 +6701,7 @@ __metadata:
     eslint-config-prettier: ^8.4.0
     eslint-plugin-prettier: ^4.0.0
     expect-type: ^0.13.0
-    happy-dom: ^2.40.0
+    happy-dom: ^2.40.2
     husky: ^7.0.4
     lint-staged: ^12.3.4
     pinst: ^3.0.0
