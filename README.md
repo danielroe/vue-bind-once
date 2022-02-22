@@ -58,6 +58,23 @@ export default defineNuxtPlugin(nuxtApp => {
 })
 ```
 
+### Usage
+
+You can now use the directive on any element where you need a binding to a value that needs to match between client/server but won't change dynamically afterwards.
+
+```html
+<script setup>
+  import { nanoid } from 'nanoid'
+  const id = nanoid()
+</script>
+<template>
+  <input type="text" v-bind-once="{ id, name: id }" />
+  <label v-bind-once="{ for: id }" />
+</template>
+```
+
+This will work on both server and on client re-hydration.
+
 ## Contributors
 
 This has been developed to suit my needs but additional use cases and contributions are very welcome.
