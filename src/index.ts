@@ -5,7 +5,9 @@ export const BindOnceDirective: Directive = {
   created(el, binding) {
     for (const key in binding.value) {
       const k = kebabCase(key)
-      el.setAttribute(k, el.getAttribute(k) || binding.value[key])
+      if (!el.hasAttribute(k)) {
+        el.setAttribute(k, binding.value[key])
+      }
     }
   },
   getSSRProps(binding) {
