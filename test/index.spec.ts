@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
+
 import { renderToString } from 'vue/server-renderer'
 import { createApp, createSSRApp, reactive } from 'vue'
 
@@ -15,9 +16,7 @@ describe('directive', () => {
 
   it('binds data on client-side', () => {
     const wrapper = elementWithDirective(sampleData())
-    expect(wrapper.html()).toBe(
-      `<div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div>`
-    )
+    expect(wrapper.html()).toBe(sampleRender)
   })
 
   it('handles reactive data', () => {
@@ -28,9 +27,7 @@ describe('directive', () => {
       },
       { global: { plugins: [BindOncePlugin] } }
     )
-    expect(wrapper.html()).toBe(
-      `<div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div>`
-    )
+    expect(wrapper.html()).toBe(sampleRender)
   })
 
   it('adds data-attributes on server-side', async () => {
@@ -42,13 +39,11 @@ describe('directive', () => {
     })
     app.directive('bind-once', BindOnceDirective)
     const result = await renderToString(app)
-    expect(result).toBe(
-      `<div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div>`
-    )
+    expect(result).toBe(sampleRender)
   })
 
   it('hydrates server-rendered data properly', async () => {
-    const body = `<body id="app"><div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div></body>`
+    const body = `<body id="app">${sampleRender}</body>`
     const html = `<html>${body}</html>`
     document.write(html)
     const app = createSSRApp({
@@ -72,6 +67,9 @@ const sampleData = () => ({
   camelCase: 'camel',
   'kebab-case': 'kebab',
 })
+
+const sampleRender =
+  '<div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div>'
 
 const elementWithDirective = (binding?: Record<string, any>) =>
   mount(
