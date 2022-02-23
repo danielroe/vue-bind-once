@@ -5,22 +5,18 @@ export const BindOnceDirective: Directive = {
   created(el, binding) {
     for (const key in binding.value) {
       const k = kebabCase(key)
-      el.setAttribute(k, el.dataset[k] || binding.value[key])
+      el.setAttribute(k, el.getAttribute(k) || binding.value[key])
     }
   },
   getSSRProps(binding) {
-    if (!binding.value) {
-      return {}
-    }
+    /* c8 ignore next */
+    if (!binding.value) return {}
 
     return Object.fromEntries(
-      Object.entries(binding.value).flatMap(([key, value]) => {
-        const k = kebabCase(key)
-        return [
-          [k, value],
-          [`data-${k}`, value],
-        ]
-      })
+      Object.entries(binding.value).map(([key, value]) => [
+        kebabCase(key),
+        value,
+      ])
     )
   },
 }

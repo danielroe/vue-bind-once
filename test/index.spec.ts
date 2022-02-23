@@ -58,12 +58,12 @@ describe('directive', () => {
     app.directive('bind-once', BindOnceDirective)
     const result = await renderToString(app)
     expect(result).toBe(
-      `<div id="test-value" data-id="test-value" num="42" data-num="42" bool="true" data-bool="true" camel-case="camel" data-camel-case="camel"></div>`
+      `<div id="test-value" num="42" bool="true" camel-case="camel"></div>`
     )
   })
 
   it('hydrates server-rendered data properly', async () => {
-    const body = `<body id="app"><div id="test-value" data-id="test-value" num="42" data-num="42" bool="true" data-bool="true" camel-case="camel" data-camel-case="camel"></div></body>`
+    const body = `<body id="app"><div id="test-value" num="42" bool="true" camel-case="camel"></div></body>`
     const html = `<html>${body}</html>`
     document.write(html)
     const app = createSSRApp({
