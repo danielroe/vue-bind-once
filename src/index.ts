@@ -1,8 +1,8 @@
 import { kebabCase } from 'scule'
 import type { Directive, Plugin } from 'vue'
 
-export const BindOnceDirective: Directive = {
-  created(el, binding) {
+export const BindOnceDirective: Directive<HTMLElement> = {
+  created: (el, binding) => {
     for (const key in binding.value) {
       const k = kebabCase(key)
       if (!el.hasAttribute(k)) {
