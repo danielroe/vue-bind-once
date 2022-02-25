@@ -40,7 +40,7 @@
     "scule": "^0.2.1"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^4.1.0",
+    "@release-it/conventional-changelog": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
     "@vue/test-utils": "^2.0.0-rc.17",
@@ -48,11 +48,11 @@
     "codecov": "^3.8.3",
     "conventional-changelog-conventionalcommits": "^4.6.3",
     "esbuild": "0.14.23",
-    "eslint": "^8.9.0",
+    "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-prettier": "^4.0.0",
     "expect-type": "^0.13.0",
-    "happy-dom": "^2.40.2",
+    "happy-dom": "^2.41.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
     "pinst": "^3.0.0",
@@ -62,7 +62,7 @@
     "typescript": "^4.5.5",
     "unbuild": "^0.6.9",
     "vite": "^2.8.4",
-    "vitest": "^0.5.3",
+    "vitest": "^0.5.5",
     "vue": "^3.2.31"
   },
   "peerDependencies": {
