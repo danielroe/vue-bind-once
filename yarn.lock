@@ -58,9 +58,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@eslint/eslintrc@npm:1.1.0"
+"@eslint/eslintrc@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@eslint/eslintrc@npm:1.2.0"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -71,7 +71,7 @@ __metadata:
     js-yaml: ^4.1.0
     minimatch: ^3.0.4
     strip-json-comments: ^3.1.1
-  checksum: 784aa2157e2808b52bbbaf1d1cfca9a6ba0b2faaa3696eb7a1229d4b357400fbd8a6aa09a16e7ae0868ea075d3a8f365cf5928b6d05a1df47f40a1167423a4fa
+  checksum: a5e51dcf02627363567094456d7880b46b6a14a285d7a057f083ca903bdd862483bb6314cbc9fb6fa2d2c4537d50e0d28bd5e39650840241ae4796faaec65d2e
   languageName: node
   linkType: hard
 
@@ -299,9 +299,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@release-it/conventional-changelog@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@release-it/conventional-changelog@npm:4.1.0"
+"@release-it/conventional-changelog@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "@release-it/conventional-changelog@npm:4.2.0"
   dependencies:
     concat-stream: ^2.0.0
     conventional-changelog: ^3.1.25
@@ -309,7 +309,7 @@ __metadata:
     prepend-file: ^2.0.0
   peerDependencies:
     release-it: ^14.12.1
-  checksum: 7168a9eb60f0f8eeec5ce96f6c5d4de18aaf9047fdd1fe5e6c9a422e11e8b9ae72efe9e8847146c3f3f025eadc5259952510f24f594abccc10f7340d62b8171e
+  checksum: 24fe6050852c44c1da17edc104ac85988dc9c5af97f0628878061550dc046fa64df2f12f21a7c78b68976ab2ede41543451799161ebce2d29048dc3ed7614074
   languageName: node
   linkType: hard
 
@@ -2617,11 +2617,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.9.0":
-  version: 8.9.0
-  resolution: "eslint@npm:8.9.0"
+"eslint@npm:^8.10.0":
+  version: 8.10.0
+  resolution: "eslint@npm:8.10.0"
   dependencies:
-    "@eslint/eslintrc": ^1.1.0
+    "@eslint/eslintrc": ^1.2.0
     "@humanwhocodes/config-array": ^0.9.2
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -2658,7 +2658,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 8efecdb9752ee6cb4d2787a14e00cbeab29562ed95dd71c6f3f8ac410426a067d5aa659416d2290e46ca44bc5607e6a6e6c62f814694d8639f80666f522022a7
+  checksum: 8b31ab3de5b48b6828bf13c09c9e62ee0045fa0afa017efaa73eedcf4dc33bc204ee4c467d4677e37967d1645f73816ddef4271422e691fded352040f8f83093
   languageName: node
   linkType: hard
 
@@ -3313,9 +3313,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^2.40.2":
-  version: 2.40.2
-  resolution: "happy-dom@npm:2.40.2"
+"happy-dom@npm:^2.41.0":
+  version: 2.41.0
+  resolution: "happy-dom@npm:2.41.0"
   dependencies:
     css.escape: ^1.5.1
     he: ^1.1.1
@@ -3324,7 +3324,7 @@ __metadata:
     webidl-conversions: ^7.0.0
     whatwg-encoding: ^1.0.5
     whatwg-mimetype: ^2.3.0
-  checksum: 99c89269e2011bccda5b86b82404d521d2757aa1348a260d1f6172a5a5766996cc158a28318bea291c2ccbf905e6f1d9cad548f4e2b9972f2055ce5f37c2afed
+  checksum: dfa97378772aed0c407f98666528b412fbbbaa074905bfb49e1418fb48a4db492a80a8886e0f228616272a52932a610f500ff9b339a66fa91a00b878d987b893
   languageName: node
   linkType: hard
 
@@ -6654,9 +6654,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.5.3":
-  version: 0.5.3
-  resolution: "vitest@npm:0.5.3"
+"vitest@npm:^0.5.5":
+  version: 0.5.5
+  resolution: "vitest@npm:0.5.5"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -6681,7 +6681,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: c4fe27cc42b474a712324141f34c0b5859f34274ec320bc7891dfcacbc9149c1d7d5e6bd1983a558270b8049ea21a0c3250849bc0b553b32f92f31b14c93e575
+  checksum: fd6f20ef796ac80c511da6855e9209765b708ac8c5f01c1ad618cab6755199fd58a1aaf40f5751772161b06a9c589c4f80c11ce4112619dc3487a3887eb042f2
   languageName: node
   linkType: hard
 
@@ -6689,7 +6689,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vue-bind-once@workspace:."
   dependencies:
-    "@release-it/conventional-changelog": ^4.1.0
+    "@release-it/conventional-changelog": ^4.2.0
     "@typescript-eslint/eslint-plugin": ^5.12.1
     "@typescript-eslint/parser": ^5.12.1
     "@vue/test-utils": ^2.0.0-rc.17
@@ -6697,11 +6697,11 @@ __metadata:
     codecov: ^3.8.3
     conventional-changelog-conventionalcommits: ^4.6.3
     esbuild: 0.14.23
-    eslint: ^8.9.0
+    eslint: ^8.10.0
     eslint-config-prettier: ^8.4.0
     eslint-plugin-prettier: ^4.0.0
     expect-type: ^0.13.0
-    happy-dom: ^2.40.2
+    happy-dom: ^2.41.0
     husky: ^7.0.4
     lint-staged: ^12.3.4
     pinst: ^3.0.0
@@ -6712,7 +6712,7 @@ __metadata:
     typescript: ^4.5.5
     unbuild: ^0.6.9
     vite: ^2.8.4
-    vitest: ^0.5.3
+    vitest: ^0.5.5
     vue: ^3.2.31
   peerDependencies:
     vue: ^3
