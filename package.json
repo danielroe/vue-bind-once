@@ -47,8 +47,8 @@
     "c8": "^7.11.0",
     "codecov": "^3.8.3",
     "conventional-changelog-conventionalcommits": "^4.6.3",
-    "esbuild": "0.14.25",
-    "eslint": "^8.10.0",
+    "esbuild": "0.14.26",
+    "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "expect-type": "^0.13.0",
@@ -62,7 +62,7 @@
     "typescript": "^4.6.2",
     "unbuild": "^0.7.0",
     "vite": "^2.8.6",
-    "vitest": "^0.6.0",
+    "vitest": "^0.6.1",
     "vue": "^3.2.31"
   },
   "peerDependencies": {
