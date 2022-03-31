@@ -15,34 +15,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/setup-node@v3
         with:
           node-version: "14"
-
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-
-      - uses: actions/cache@v3
-        id: cache
-        with:
-          path: |
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
-            .yarn/*
-            !.yarn/releases
-            !.yarn/plugins
-            !.yarn/sdks
-            !.yarn/versions
-            .pnp.js
-          key: yarn-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('.pnp.js') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Lint project
-        run: yarn lint
+        run: pnpm run lint
 
   test:
     runs-on: ubuntu-latest
@@ -50,35 +32,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-
-      - uses: actions/cache@v3
-        id: cache
+      - uses: actions/setup-node@v3
         with:
-          path: |
-            ${{ steps.yarn-cache-dir-path.outputs.dir }}
-            .yarn/*
-            !.yarn/releases
-            !.yarn/plugins
-            !.yarn/sdks
-            !.yarn/versions
-            .pnp.js
-          key: yarn-${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('.pnp.js') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn
+          node-version: "14"
+          cache: "pnpm"
 
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Build project
-        run: yarn build
+        run: pnpm run build
 
       - name: Test project
-        run: yarn test --coverage
+        run: pnpm run test --coverage
 
       - name: Coverage
-        run: yarn codecov
+        run: pnpm exec codecov
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
