@@ -45,7 +45,6 @@
     "@typescript-eslint/parser": "^5.17.0",
     "@vue/test-utils": "^2.0.0-rc.17",
     "c8": "^7.11.0",
-    "codecov": "^3.8.3",
     "conventional-changelog-conventionalcommits": "^4.6.3",
     "esbuild": "0.14.29",
     "eslint": "^8.12.0",
