@@ -2678,7 +2678,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:0.14.29":
+"esbuild@npm:0.14.29, esbuild@npm:^0.14.27":
   version: 0.14.29
   resolution: "esbuild@npm:0.14.29"
   dependencies:
@@ -3745,9 +3745,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^2.51.0":
-  version: 2.51.0
-  resolution: "happy-dom@npm:2.51.0"
+"happy-dom@npm:^2.53.1":
+  version: 2.53.1
+  resolution: "happy-dom@npm:2.53.1"
   dependencies:
     css.escape: ^1.5.1
     he: ^1.2.0
@@ -3756,7 +3756,7 @@ __metadata:
     webidl-conversions: ^7.0.0
     whatwg-encoding: ^2.0.0
     whatwg-mimetype: ^3.0.0
-  checksum: d4754b828a3f8e94557fbe7256ed591c5996c2b73aca671d533a81140d1db29b2216874f7ba003fded9918a3e741984279876b5f11bcc7eb57d3db4d20816846
+  checksum: afa35836ba5be2b179bc5a36458ad02d1606ed460c6bd242875d723a68adeb20aef6fbc9f1ca2cef2522801fb7bde7b15fc4dd2d04fb815dde8364e038c58f58
   languageName: node
   linkType: hard
 
@@ -5053,6 +5053,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.1":
+  version: 3.3.2
+  resolution: "nanoid@npm:3.3.2"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 376717f0685251fad77850bd84c6b8d57837c71eeb1c05be7c742140cc1835a5a2953562add05166d6dbc8fb65f3fdffa356213037b967a470e1691dc3e7b9cc
+  languageName: node
+  linkType: hard
+
 "natural-compare@npm:^1.4.0":
   version: 1.4.0
   resolution: "natural-compare@npm:1.4.0"
@@ -5572,6 +5581,17 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 60e7808f39c4a9d0fa067bfd5eb906168c4eb6d3ff0093f7d314d1979b001a16363deedccd368a7df869c63ad4ae350d27da439c94ff3fb0f8fc93d49fe38a90
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.12":
+  version: 8.4.12
+  resolution: "postcss@npm:8.4.12"
+  dependencies:
+    nanoid: ^3.3.1
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 248e3d0f9bbb8efaafcfda7f91627a29bdc9a19f456896886330beb28c5abea0e14c7901b35191928602e2eccbed496b1e94097d27a0b2a980854cd00c7a835f
   languageName: node
   linkType: hard
 
@@ -7133,9 +7153,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "vitest@npm:0.8.0"
+"vite@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "vite@npm:2.9.1"
+  dependencies:
+    esbuild: ^0.14.27
+    fsevents: ~2.3.2
+    postcss: ^8.4.12
+    resolve: ^1.22.0
+    rollup: ^2.59.0
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 0f0ac9337fa5c17faa4a59831a2df17475563b23a6162e86b2b60b19835ca1277f3249ea7a6608880354b39caf05779e9bad1e3b1f5b27010deced224aae47ea
+  languageName: node
+  linkType: hard
+
+"vitest@npm:^0.8.1":
+  version: 0.8.1
+  resolution: "vitest@npm:0.8.1"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -7160,7 +7209,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: efc6e998f79377804bfed7354eac1dfd73add7be1be249b86bff698bf4535eb69a79eed47e958e9a5fa29d07a8eac47b0cd0e22d87eb88571163e0d97000b069
+  checksum: 6ae9c7ab102a5f44aa4abf28bf756e510b9249b82ea5d467118dabc5e3fe0f810a8bae483b29b3de6f9cc057745a03bb0ece56eb0148a288469b0a1840936a31
   languageName: node
   linkType: hard
 
@@ -7180,7 +7229,7 @@ __metadata:
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.0.0
     expect-type: ^0.13.0
-    happy-dom: ^2.51.0
+    happy-dom: ^2.53.1
     husky: ^7.0.4
     lint-staged: ^12.3.7
     pinst: ^3.0.0
@@ -7190,8 +7239,8 @@ __metadata:
     semver: ^7.3.5
     typescript: ^4.6.3
     unbuild: ^0.7.2
-    vite: ^2.8.6
-    vitest: ^0.8.0
+    vite: ^2.9.1
+    vitest: ^0.8.1
     vue: ^3.2.31
   peerDependencies:
     vue: ^3
