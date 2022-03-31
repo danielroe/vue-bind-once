@@ -72,5 +72,6 @@
     "externals": [
       "vue"
     ]
-  }
+  },
+  "packageManager": "pnpm@6.32.2"
 }
