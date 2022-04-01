@@ -51,12 +51,12 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "expect-type": "^0.13.0",
-    "happy-dom": "^2.53.1",
+    "happy-dom": "^2.55.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "pinst": "^3.0.0",
     "prettier": "^2.6.1",
-    "release-it": "^14.13.1",
+    "release-it": "^14.14.0",
     "semver": "^7.3.5",
     "typescript": "^4.6.3",
     "unbuild": "^0.7.2",
@@ -72,5 +72,5 @@
       "vue"
     ]
   },
-  "packageManager": "pnpm@6.32.2"
+  "packageManager": "pnpm@6.32.4"
 }
