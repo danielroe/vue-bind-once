@@ -40,7 +40,7 @@
     "scule": "^0.2.1"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^4.3.0",
+    "@release-it/conventional-changelog": "^5.0.0",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
     "@vue/test-utils": "^2.0.0-rc.21",
