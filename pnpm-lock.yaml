@@ -23,7 +23,7 @@ specifiers:
   typescript: ^4.6.3
   unbuild: ^0.7.4
   vite: ^2.9.5
-  vitest: ^0.9.4
+  vitest: ^0.12.0
   vue: ^3.2.33
 
 dependencies:
@@ -51,7 +51,7 @@ devDependencies:
   typescript: 4.6.3
   unbuild: 0.7.4
   vite: 2.9.5
-  vitest: 0.9.4_c8@7.11.2+happy-dom@2.55.0
+  vitest: 0.12.0_c8@7.11.2+happy-dom@2.55.0
   vue: 3.2.33
 
 packages:
@@ -3632,6 +3632,12 @@ packages:
     hasBin: true
     dev: true
 
+  /nanoid/3.3.4:
+    resolution: {integrity: sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
   /natural-compare/1.4.0:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
@@ -3993,6 +3999,15 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.2
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: true
+
+  /postcss/8.4.13:
+    resolution: {integrity: sha512-jtL6eTBrza5MPzy8oJLFuUscHDXTV5KcLlqAWHl5q5WYRfnNRGSmOZmOZ1T6Gy7A99mOZfqungmZMpMmCVJ8ZA==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
@@ -4715,8 +4730,8 @@ packages:
       readable-stream: 3.6.0
     dev: true
 
-  /tinypool/0.1.2:
-    resolution: {integrity: sha512-fvtYGXoui2RpeMILfkvGIgOVkzJEGediv8UJt7TxdAOY8pnvUkFg/fkvqTfXG9Acc9S17Cnn1S4osDc2164guA==}
+  /tinypool/0.1.3:
+    resolution: {integrity: sha512-2IfcQh7CP46XGWGGbdyO4pjcKqsmVqFAPcXfPxcPXmOWt9cYkTP9HcDmGgsfijYoAEc4z9qcpM/BaBz46Y9/CQ==}
     engines: {node: '>=14.0.0'}
     dev: true
 
@@ -5003,8 +5018,32 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.9.4_c8@7.11.2+happy-dom@2.55.0:
-    resolution: {integrity: sha512-Em+EJb3keCr3GjyqnkxHuY7zMerEgLsN+m2nqsUcCzO7C4+Y0E7O7LXSNaODh3Gc/An3dqnoaAe/uLBrAJXUdQ==}
+  /vite/2.9.8:
+    resolution: {integrity: sha512-zsBGwn5UT3YS0NLSJ7hnR54+vUKfgzMUh/Z9CxF1YKEBVIe213+63jrFLmZphgGI5zXwQCSmqIdbPuE8NJywPw==}
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    peerDependencies:
+      less: '*'
+      sass: '*'
+      stylus: '*'
+    peerDependenciesMeta:
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+    dependencies:
+      esbuild: 0.14.37
+      postcss: 8.4.13
+      resolve: 1.22.0
+      rollup: 2.70.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vitest/0.12.0_c8@7.11.2+happy-dom@2.55.0:
+    resolution: {integrity: sha512-ITdIJJ5nl7eu2Iq4oON/wgpgRbhUR+50ShdMsUw87zByzjtJIx2vPbkz+J8Bq6eEUvyy8p7j0bU1sB/xWz05bw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -5028,9 +5067,9 @@ packages:
       chai: 4.3.6
       happy-dom: 2.55.0
       local-pkg: 0.4.1
-      tinypool: 0.1.2
+      tinypool: 0.1.3
       tinyspy: 0.3.2
-      vite: 2.9.5
+      vite: 2.9.8
     transitivePeerDependencies:
       - less
       - sass
