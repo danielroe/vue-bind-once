@@ -23,7 +23,7 @@ specifiers:
   typescript: ^4.6.4
   unbuild: ^0.7.4
   vite: ^2.9.9
-  vitest: ^0.12.6
+  vitest: ^0.13.0
   vue: ^3.2.33
 
 dependencies:
@@ -51,7 +51,7 @@ devDependencies:
   typescript: 4.6.4
   unbuild: 0.7.4
   vite: 2.9.9
-  vitest: 0.12.6_c8@7.11.3+happy-dom@5.0.0
+  vitest: 0.13.0_c8@7.11.3+happy-dom@5.0.0
   vue: 3.2.33
 
 packages:
@@ -2735,7 +2735,7 @@ packages:
     dev: true
 
   /get-func-name/2.0.0:
-    resolution: {integrity: sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=}
+    resolution: {integrity: sha512-Hm0ixYtaSZ/V7C8FJrtZIuBBI+iSgL+1Aq82zSu8VQNB4S3Gk8e7Qs3VwBDJAhmRZcFqkl3tQu36g/Foh5I5ig==}
     dev: true
 
   /get-intrinsic/1.1.1:
@@ -5624,8 +5624,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.12.6_c8@7.11.3+happy-dom@5.0.0:
-    resolution: {integrity: sha512-YWbCTv0XKBuBw5YtuW/iufuguoi8QhGpYyi2g57Oo7akpscMkkWTAaZGgY0ux1oJJtO/pc/8GFt0EF32WFBUUQ==}
+  /vitest/0.13.0_c8@7.11.3+happy-dom@5.0.0:
+    resolution: {integrity: sha512-vuYt3+G25MMnANgyMHHG3VK86C9K/VFi/8uH5myQ2v660W4WArv99ElakPlVFxxSXXM1jqQPiPj2ht35Bod9LQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -5647,6 +5647,7 @@ packages:
       '@types/chai-subset': 1.3.3
       c8: 7.11.3
       chai: 4.3.6
+      debug: 4.3.4
       happy-dom: 5.0.0
       local-pkg: 0.4.1
       tinypool: 0.1.3
@@ -5656,6 +5657,7 @@ packages:
       - less
       - sass
       - stylus
+      - supports-color
     dev: true
 
   /vm2/3.9.9:
