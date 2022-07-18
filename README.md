@@ -54,7 +54,7 @@ In most cases you'll be using this directive with an SSR-rendering framework lik
 import { BindOncePlugin } from 'vue-bind-once'
 
 export default defineNuxtPlugin(nuxtApp => {
-  nuxtApp.vueApp.install(BindOncePlugin)
+  nuxtApp.vueApp.use(BindOncePlugin)
 })
 ```
 
