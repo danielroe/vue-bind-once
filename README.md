@@ -44,7 +44,7 @@ import App from './App.vue'
 import { BindOnceDirective, BindOncePlugin } from 'vue-bind-once'
 
 const app = createApp(App)
-app.install(BindOncePlugin)
+app.use(BindOncePlugin)
 // or app.directive('bind-once', BindOnceDirective)
 ```
 
