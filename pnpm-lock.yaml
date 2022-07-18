@@ -22,7 +22,7 @@ specifiers:
   semver: ^7.3.7
   typescript: ^4.7.4
   unbuild: ^0.7.4
-  vite: ^2.9.14
+  vite: ^3.0.1
   vitest: ^0.18.0
   vue: ^3.2.37
 
@@ -50,7 +50,7 @@ devDependencies:
   semver: 7.3.7
   typescript: 4.7.4
   unbuild: 0.7.4
-  vite: 2.9.14
+  vite: 3.0.1
   vitest: 0.18.0_c8@7.11.3+happy-dom@6.0.3
   vue: 3.2.37
 
@@ -524,7 +524,7 @@ packages:
       glob: 7.2.3
       is-reference: 1.2.1
       magic-string: 0.25.9
-      resolve: 1.22.0
+      resolve: 1.22.1
       rollup: 2.70.1
     dev: true
 
@@ -548,7 +548,7 @@ packages:
       builtin-modules: 3.2.0
       deepmerge: 4.2.2
       is-module: 1.0.0
-      resolve: 1.22.0
+      resolve: 1.22.1
       rollup: 2.70.1
     dev: true
 
@@ -3969,7 +3969,7 @@ packages:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.0
+      resolve: 1.22.1
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: true
@@ -4576,7 +4576,7 @@ packages:
     resolution: {integrity: sha512-HFM8rkZ+i3zrV+4LQjwQ0W+ez98pApMGM3HUrN04j3CqzPOzl9nmP15Y8YXNm8QHGv/eacOVEjqhmWpkRV0NAw==}
     engines: {node: '>= 0.10'}
     dependencies:
-      resolve: 1.22.0
+      resolve: 1.22.1
     dev: true
 
   /redent/3.0.0:
@@ -4665,8 +4665,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /resolve/1.22.0:
-    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
+  /resolve/1.22.1:
+    resolution: {integrity: sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==}
     hasBin: true
     dependencies:
       is-core-module: 2.9.0
@@ -5455,14 +5455,15 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/2.9.14:
-    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
-    engines: {node: '>=12.2.0'}
+  /vite/3.0.1:
+    resolution: {integrity: sha512-nefKSglkoEsDpYUkBuT2++L04ktcP8fz8dxLtmZdDdMyhubFSOLFw6BTh/46Fc6tIX/cibs/NVYWNrsqn0k6pQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
       less: '*'
       sass: '*'
       stylus: '*'
+      terser: ^5.4.0
     peerDependenciesMeta:
       less:
         optional: true
@@ -5470,10 +5471,12 @@ packages:
         optional: true
       stylus:
         optional: true
+      terser:
+        optional: true
     dependencies:
       esbuild: 0.14.49
       postcss: 8.4.14
-      resolve: 1.22.0
+      resolve: 1.22.1
       rollup: 2.75.6
     optionalDependencies:
       fsevents: 2.3.2
@@ -5511,12 +5514,13 @@ packages:
       local-pkg: 0.4.1
       tinypool: 0.2.1
       tinyspy: 0.3.3
-      vite: 2.9.14
+      vite: 3.0.1
     transitivePeerDependencies:
       - less
       - sass
       - stylus
       - supports-color
+      - terser
     dev: true
 
   /vm2/3.9.9:
