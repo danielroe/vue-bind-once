@@ -17,7 +17,7 @@ specifiers:
   lint-staged: ^13.0.3
   pinst: ^3.0.0
   prettier: ^2.7.1
-  release-it: ^15.1.2
+  release-it: ^15.1.3
   scule: ^0.2.1
   semver: ^7.3.7
   typescript: ^4.7.4
@@ -30,7 +30,7 @@ dependencies:
   scule: 0.2.1
 
 devDependencies:
-  '@release-it/conventional-changelog': 5.0.0_release-it@15.1.2
+  '@release-it/conventional-changelog': 5.0.0_release-it@15.1.3
   '@typescript-eslint/eslint-plugin': 5.30.7_6wltbjakwuqm7awqswigmiuhd4
   '@typescript-eslint/parser': 5.30.7_he2ccbldppg44uulnyq4rwocfa
   '@vue/test-utils': 2.0.2_vue@3.2.37
@@ -46,7 +46,7 @@ devDependencies:
   lint-staged: 13.0.3
   pinst: 3.0.0
   prettier: 2.7.1
-  release-it: 15.1.2
+  release-it: 15.1.3
   semver: 7.3.7
   typescript: 4.7.4
   unbuild: 0.7.4
@@ -383,7 +383,7 @@ packages:
       '@octokit/graphql': 5.0.0
       '@octokit/request': 6.2.0
       '@octokit/request-error': 3.0.0
-      '@octokit/types': 6.34.0
+      '@octokit/types': 6.40.0
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
@@ -408,10 +408,6 @@ packages:
       universal-user-agent: 6.0.0
     transitivePeerDependencies:
       - encoding
-    dev: true
-
-  /@octokit/openapi-types/11.2.0:
-    resolution: {integrity: sha512-PBsVO+15KSlGmiI8QAzaqvsNlZlrDlyAJYcrXBCvVUxCp7VnXjkwPoFHgjEJXx3WF9BAwkA6nfCUA7i9sODzKA==}
     dev: true
 
   /@octokit/openapi-types/12.10.0:
@@ -482,12 +478,6 @@ packages:
       - encoding
     dev: true
 
-  /@octokit/types/6.34.0:
-    resolution: {integrity: sha512-s1zLBjWhdEI2zwaoSgyOFoKSl109CUcVBCc7biPJ3aAf6LGLU6szDvi31JPU7bxfla2lqfhjbbg/5DdFNxOwHw==}
-    dependencies:
-      '@octokit/openapi-types': 11.2.0
-    dev: true
-
   /@octokit/types/6.40.0:
     resolution: {integrity: sha512-MFZOU5r8SwgJWDMhrLUSvyJPtVsqA6VnbVI3TNbsmw+Jnvrktzvq2fYES/6RiJA/5Ykdwq4mJmtlYUfW7CGjmw==}
     dependencies:
@@ -509,7 +499,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@release-it/conventional-changelog/5.0.0_release-it@15.1.2:
+  /@release-it/conventional-changelog/5.0.0_release-it@15.1.3:
     resolution: {integrity: sha512-YAvGgxA8cIQSbmyHmAmLMwzCkNP74upLST8jFuDJTI+AVfK2Grp2HbZu0/NeV3sHYD20sT8YMzNVUeRxNlyHeg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -518,7 +508,7 @@ packages:
       concat-stream: 2.0.0
       conventional-changelog: 3.1.25
       conventional-recommended-bump: 6.1.0
-      release-it: 15.1.2
+      release-it: 15.1.3
     dev: true
 
   /@rollup/plugin-alias/3.1.9_rollup@2.70.1:
@@ -3203,8 +3193,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /inquirer/9.0.1:
-    resolution: {integrity: sha512-NO601wvGO4Zm25ctJUhuglRBShQKJSGKGQlgbeyjs3cvXqq4Ud1jhwR36zf3pTC9mmfH3uHJHb/sL3/YJPqMzw==}
+  /inquirer/9.0.2:
+    resolution: {integrity: sha512-AqmDHmz3bIe573OiM4svTZzajBzff1xpuzYAimW8gjzW5ncuPllWB8t/GKl+NSuKRJaKyIF2bU2RCx8H1dwqyQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
       ansi-escapes: 5.0.0
@@ -4005,8 +3995,8 @@ packages:
       whatwg-url: 5.0.0
     dev: true
 
-  /node-fetch/3.2.8:
-    resolution: {integrity: sha512-KtpD1YhGszhntMpBDyp5lyagk8KIMopC1LEb7cQUAh7zcosaX5uK8HnbNb2i3NTQK3sIawCItS0uFC3QzcLHdg==}
+  /node-fetch/3.2.9:
+    resolution: {integrity: sha512-/2lI+DBecVvVm9tDhjziTVjo2wmTsSxSk58saUYP0P/fRJ3xxtfMDY24+CKTkfm0Dlhyn3CSXNL0SoRiCZ8Rzg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       data-uri-to-buffer: 4.0.0
@@ -4668,8 +4658,8 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it/15.1.2:
-    resolution: {integrity: sha512-GLNFI4oDpxSCAOJyzmaWyel8JwZTr2eD276TivTHaUaUvP0wer2qtUYzF+Ot1V+rLGM25bE+AZwR0UFzQNgC1A==}
+  /release-it/15.1.3:
+    resolution: {integrity: sha512-pdW9Ua59S3upm2wwzrWiQK8N5vXazNBBYk/UhpVf0faHV6mmY8GunS1ZzawSNi4fOOx55zSQFj2IHkOgfBxNUg==}
     engines: {node: '>=14.9'}
     hasBin: true
     dependencies:
@@ -4683,12 +4673,12 @@ packages:
       git-url-parse: 11.6.0
       globby: 13.1.2
       got: 12.1.0
-      inquirer: 9.0.1
+      inquirer: 9.0.2
       is-ci: 3.0.1
       lodash: 4.17.21
       mime-types: 2.1.35
       new-github-release-url: 2.0.0
-      node-fetch: 3.2.8
+      node-fetch: 3.2.9
       open: 8.4.0
       ora: 6.1.2
       os-name: 5.0.1
