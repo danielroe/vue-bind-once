@@ -21,7 +21,7 @@ specifiers:
   scule: ^0.2.1
   semver: ^7.3.7
   typescript: ^4.7.4
-  unbuild: ^0.7.5
+  unbuild: ^0.7.6
   vite: ^3.0.2
   vitest: ^0.18.1
   vue: ^3.2.37
@@ -49,7 +49,7 @@ devDependencies:
   release-it: 15.1.3
   semver: 7.3.7
   typescript: 4.7.4
-  unbuild: 0.7.5
+  unbuild: 0.7.6
   vite: 3.0.2
   vitest: 0.18.1_c8@7.12.0+happy-dom@6.0.4
   vue: 3.2.37
@@ -5194,8 +5194,8 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
-  /unbuild/0.7.5:
-    resolution: {integrity: sha512-mCPSq+Th7rzbOWC4lB9OKcqdsGq69xyQrE7LkqgTOOLtgsy1D2SQZSNvTzgc+nDpsHh0N55XrShf4BlxctQOqw==}
+  /unbuild/0.7.6:
+    resolution: {integrity: sha512-W6pFPS6/ewlEV5uWbNgfo0i2LbVBsue5GKlOkCo6ozIrInOBEgq4s3HCUB5eZSw6Ty2iwF8dKM65pZX7QGZJ0g==}
     hasBin: true
     dependencies:
       '@rollup/plugin-alias': 3.1.9_rollup@2.77.0
