@@ -22,7 +22,7 @@ specifiers:
   semver: ^7.3.7
   typescript: ^4.7.4
   unbuild: ^0.8.8
-  vite: ^3.0.6
+  vite: ^3.0.7
   vitest: ^0.21.1
   vue: ^3.2.37
 
@@ -50,7 +50,7 @@ devDependencies:
   semver: 7.3.7
   typescript: 4.7.4
   unbuild: 0.8.8
-  vite: 3.0.6
+  vite: 3.0.7
   vitest: 0.21.1_c8@7.12.0+happy-dom@6.0.4
   vue: 3.2.37
 
@@ -5541,8 +5541,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/3.0.6:
-    resolution: {integrity: sha512-pjfsWIzfUlQME/VAmU6SsjdHkTt6WAHysuqPkHDcjzNu6IGtxDSZ/VfRYOwHaCqX4M3Ivz0kxuSfAPM6gAIX+w==}
+  /vite/3.0.7:
+    resolution: {integrity: sha512-dILhvKba1mbP1wCezVQx/qhEK7/+jVn9ciadEcyKMMhZpsuAi/eWZfJRMkmYlkSFG7Qq9NvJbgFq4XOBxugJsA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5603,7 +5603,7 @@ packages:
       local-pkg: 0.4.2
       tinypool: 0.2.4
       tinyspy: 1.0.0
-      vite: 3.0.6
+      vite: 3.0.7
     transitivePeerDependencies:
       - less
       - sass
