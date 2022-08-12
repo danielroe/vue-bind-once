@@ -46,7 +46,7 @@
     "@vue/test-utils": "^2.0.2",
     "c8": "^7.12.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "esbuild": "0.15.1",
+    "esbuild": "0.15.2",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
