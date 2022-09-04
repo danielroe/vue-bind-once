@@ -46,7 +46,7 @@
     "@vue/test-utils": "^2.0.2",
     "c8": "^7.12.0",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "esbuild": "0.15.6",
+    "esbuild": "0.15.7",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -61,7 +61,7 @@
     "typescript": "^4.8.2",
     "unbuild": "^0.8.10",
     "vite": "^3.0.9",
-    "vitest": "^0.22.1",
+    "vitest": "^0.23.0",
     "vue": "^3.2.38"
   },
   "peerDependencies": {
