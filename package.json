@@ -62,7 +62,7 @@
     "unbuild": "^0.8.10",
     "vite": "^3.1.0",
     "vitest": "^0.23.1",
-    "vue": "^3.2.38"
+    "vue": "^3.2.39"
   },
   "peerDependencies": {
     "vue": "^3"
