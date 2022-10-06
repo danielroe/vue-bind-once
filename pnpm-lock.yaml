@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
   expect-type: ^0.14.2
-  happy-dom: ^7.0.1
+  happy-dom: ^7.0.6
   husky: ^8.0.1
   lint-staged: ^13.0.3
   pinst: ^3.0.0
@@ -22,7 +22,7 @@ specifiers:
   semver: ^7.3.8
   typescript: ^4.8.4
   unbuild: ^0.8.11
-  vite: ^3.1.5
+  vite: ^3.1.6
   vitest: ^0.23.4
   vue: ^3.2.40
 
@@ -41,7 +41,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.24.0
   eslint-plugin-prettier: 4.2.1_cfn5x6ujhhgzv3423d6k7r2zzm
   expect-type: 0.14.2
-  happy-dom: 7.0.2
+  happy-dom: 7.0.6
   husky: 8.0.1
   lint-staged: 13.0.3
   pinst: 3.0.0
@@ -50,8 +50,8 @@ devDependencies:
   semver: 7.3.8
   typescript: 4.8.4
   unbuild: 0.8.11
-  vite: 3.1.5
-  vitest: 0.23.4_happy-dom@7.0.2
+  vite: 3.1.6
+  vitest: 0.23.4_happy-dom@7.0.6
   vue: 3.2.40
 
 packages:
@@ -2993,8 +2993,8 @@ packages:
       uglify-js: 3.16.0
     dev: true
 
-  /happy-dom/7.0.2:
-    resolution: {integrity: sha512-txbwa1IUKUBxBeTYgwlXxMN6spD125XzuqY3OWZL2RiWIO3sTwXM387Nxlx8/9Tna+cF8ohvizrghnGeC5vdpg==}
+  /happy-dom/7.0.6:
+    resolution: {integrity: sha512-/tfDIes8V03W2RkoUo2T9t9aqN4HF6Z24URyPx0PfFoS8yghc9tmbXI5i9OPncxJ7CCucv5BMlT5FpWby24C7g==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -5512,8 +5512,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/3.1.5:
-    resolution: {integrity: sha512-V4Avke0b7h2zTWVJf8vq6TE3aH061NQ3b1ixHQyqdoE/5HIVsxVLCyTLjJtHVcsJ5fIKSHvOtflWpgavHS8RPw==}
+  /vite/3.1.6:
+    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5539,7 +5539,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.23.4_happy-dom@7.0.2:
+  /vitest/0.23.4_happy-dom@7.0.6:
     resolution: {integrity: sha512-iukBNWqQAv8EKDBUNntspLp9SfpaVFbmzmM0sNcnTxASQZMzRw3PsM6DMlsHiI+I6GeO5/sYDg3ecpC+SNFLrQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -5566,13 +5566,13 @@ packages:
       '@types/node': 17.0.34
       chai: 4.3.6
       debug: 4.3.4
-      happy-dom: 7.0.2
+      happy-dom: 7.0.6
       local-pkg: 0.4.2
       strip-literal: 0.4.1
       tinybench: 2.1.5
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.5
+      vite: 3.1.6
     transitivePeerDependencies:
       - less
       - sass
