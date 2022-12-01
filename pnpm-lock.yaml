@@ -18,7 +18,7 @@ specifiers:
   pinst: ^3.0.0
   prettier: ^2.8.0
   release-it: ^15.5.0
-  scule: ^0.3.2
+  scule: ^1.0.0
   semver: ^7.3.8
   typescript: ^4.9.3
   unbuild: ^1.0.1
@@ -27,7 +27,7 @@ specifiers:
   vue: ^3.2.45
 
 dependencies:
-  scule: 0.3.2
+  scule: 1.0.0
 
 devDependencies:
   '@release-it/conventional-changelog': 5.1.1_release-it@15.5.0
@@ -4656,13 +4656,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /scule/0.3.2:
-    resolution: {integrity: sha512-zIvPdjOH8fv8CgrPT5eqtxHQXmPNnV/vHJYffZhE43KZkvULvpCTvOt1HPlFaCZx287INL9qaqrZg34e8NgI4g==}
-    dev: false
-
   /scule/1.0.0:
     resolution: {integrity: sha512-4AsO/FrViE/iDNEPaAQlb77tf0csuq27EsVpy6ett584EcRTp6pTDLoGWVxCD77y5iU5FauOvhsI4o1APwPoSQ==}
-    dev: true
 
   /semver-diff/4.0.0:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
