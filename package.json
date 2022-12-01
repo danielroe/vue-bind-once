@@ -37,7 +37,7 @@
     "postpublish": "pinst --enable"
   },
   "dependencies": {
-    "scule": "^0.3.2"
+    "scule": "^1.0.0"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.1",
