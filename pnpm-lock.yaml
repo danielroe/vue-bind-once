@@ -33,7 +33,7 @@ devDependencies:
   '@release-it/conventional-changelog': 5.1.1_release-it@15.5.1
   '@typescript-eslint/eslint-plugin': 5.45.0_yjegg5cyoezm3fzsmuszzhetym
   '@typescript-eslint/parser': 5.45.0_s5ps7njkmjlaqajutnox5ntcla
-  '@vitest/coverage-c8': 0.25.3_happy-dom@7.7.0
+  '@vitest/coverage-c8': 0.25.3_happy-dom@7.7.2
   '@vue/test-utils': 2.2.5_vue@3.2.45
   conventional-changelog-conventionalcommits: 5.0.0
   esbuild: 0.15.16
@@ -854,11 +854,11 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitest/coverage-c8/0.25.3_happy-dom@7.7.0:
+  /@vitest/coverage-c8/0.25.3_happy-dom@7.7.2:
     resolution: {integrity: sha512-+tmrB3E7pZTSM+aWKzLk0FpyyaQOoRQf0594hHp+E3Kk0tiFONiEFYf7+9a1Z+C2ffU/0w6KvyBjpNPdashMrg==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.25.3_happy-dom@7.7.0
+      vitest: 0.25.3_happy-dom@7.7.2
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
