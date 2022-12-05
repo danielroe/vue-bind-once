@@ -44,16 +44,16 @@
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "@vitest/coverage-c8": "^0.25.3",
-    "@vue/test-utils": "^2.2.5",
+    "@vue/test-utils": "^2.2.6",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "esbuild": "0.15.16",
+    "esbuild": "0.15.18",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "expect-type": "^0.15.0",
     "happy-dom": "^7.7.2",
     "husky": "^8.0.2",
-    "lint-staged": "^13.0.4",
+    "lint-staged": "^13.1.0",
     "pinst": "^3.0.0",
     "prettier": "^2.8.0",
     "release-it": "^15.5.1",
@@ -72,5 +72,5 @@
       "vue"
     ]
   },
-  "packageManager": "pnpm@7.17.1"
+  "packageManager": "pnpm@7.18.0"
 }
