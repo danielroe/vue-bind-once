@@ -58,7 +58,7 @@
     "prettier": "2.8.1",
     "release-it": "15.5.1",
     "semver": "7.3.8",
-    "typescript": "4.9.3",
+    "typescript": "4.9.4",
     "unbuild": "1.0.2",
     "vite": "3.2.5",
     "vitest": "0.25.6",
