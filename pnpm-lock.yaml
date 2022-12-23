@@ -4,7 +4,7 @@ specifiers:
   '@release-it/conventional-changelog': 5.1.1
   '@typescript-eslint/eslint-plugin': 5.47.0
   '@typescript-eslint/parser': 5.47.0
-  '@vitest/coverage-c8': 0.25.8
+  '@vitest/coverage-c8': 0.26.2
   '@vue/test-utils': 2.2.6
   conventional-changelog-conventionalcommits: 5.0.0
   esbuild: 0.16.10
@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier: 4.2.1
   expect-type: 0.15.0
-  happy-dom: 8.1.0
+  happy-dom: 8.1.1
   husky: 8.0.2
   lint-staged: 13.1.0
   pinst: 3.0.0
@@ -23,7 +23,7 @@ specifiers:
   typescript: 4.9.4
   unbuild: 1.0.2
   vite: 4.0.3
-  vitest: 0.25.8
+  vitest: 0.26.2
   vue: 3.2.45
 
 dependencies:
@@ -33,7 +33,7 @@ devDependencies:
   '@release-it/conventional-changelog': 5.1.1_release-it@15.5.1
   '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
   '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa
-  '@vitest/coverage-c8': 0.25.8_happy-dom@8.1.0
+  '@vitest/coverage-c8': 0.26.2_happy-dom@8.1.1
   '@vue/test-utils': 2.2.6_vue@3.2.45
   conventional-changelog-conventionalcommits: 5.0.0
   esbuild: 0.16.10
@@ -41,7 +41,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.30.0
   eslint-plugin-prettier: 4.2.1_kl4pe43v5b43npmso5hoplpbyi
   expect-type: 0.15.0
-  happy-dom: 8.1.0
+  happy-dom: 8.1.1
   husky: 8.0.2
   lint-staged: 13.1.0
   pinst: 3.0.0
@@ -51,7 +51,7 @@ devDependencies:
   typescript: 4.9.4
   unbuild: 1.0.2
   vite: 4.0.3
-  vitest: 0.25.8_happy-dom@8.1.0
+  vitest: 0.26.2_happy-dom@8.1.1
   vue: 3.2.45
 
 packages:
@@ -1020,11 +1020,11 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitest/coverage-c8/0.25.8_happy-dom@8.1.0:
-    resolution: {integrity: sha512-fWgzQoK2KNzTTNnDcLCyibfO9/pbcpPOMtZ9Yvq/Eggpi2X8lewx/OcKZkO5ba5q9dl6+BBn6d5hTcS1709rZw==}
+  /@vitest/coverage-c8/0.26.2_happy-dom@8.1.1:
+    resolution: {integrity: sha512-h7RZ7trUUsq+yixiXhBaGboap7pjee+x59HE9rsz/JbY/evJhgk+biLY5lOgjpyUonPN0Ymz3mxlrXW9Da54SQ==}
     dependencies:
       c8: 7.12.0
-      vitest: 0.25.8_happy-dom@8.1.0
+      vitest: 0.26.2_happy-dom@8.1.1
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -2978,8 +2978,8 @@ packages:
       uglify-js: 3.16.0
     dev: true
 
-  /happy-dom/8.1.0:
-    resolution: {integrity: sha512-R9NVb5815gpMFsldZF0wVSHw2uSobx6yitSkCdQPda1kwfAmVw4Ut8ZspxGHXkK6OA93SznldkcvrbhKFr6JcA==}
+  /happy-dom/8.1.1:
+    resolution: {integrity: sha512-uI8NneN2B0D+vwIhjQVKtIUYOSh/zymfj61bU/fxkoAw+Aktn0ewG6dYKyFPOvyBoFLPg3S8fsn2OqSoYCqJeQ==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -4345,6 +4345,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /pathe/0.2.0:
+    resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
+    dev: true
+
   /pathe/1.0.0:
     resolution: {integrity: sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==}
     dev: true
@@ -4935,6 +4939,13 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /source-map-support/0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+    dev: true
+
   /source-map/0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
@@ -5441,6 +5452,27 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
+  /vite-node/0.26.2_@types+node@17.0.34:
+    resolution: {integrity: sha512-4M/zlatItZAyvrQG+82zQBhgDjRZRhVJYFW4T9wcAKh7eMmSiPOVSeI5zsV9UzHXgCcIDKX0o0r3s4OxExTHqg==}
+    engines: {node: '>=v14.16.0'}
+    hasBin: true
+    dependencies:
+      debug: 4.3.4
+      mlly: 1.0.0
+      pathe: 0.2.0
+      source-map: 0.6.1
+      source-map-support: 0.5.21
+      vite: 4.0.3_@types+node@17.0.34
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+    dev: true
+
   /vite/4.0.3:
     resolution: {integrity: sha512-HvuNv1RdE7deIfQb8mPk51UKjqptO/4RXZ5yXSAvurd5xOckwS/gg8h9Tky3uSbnjYTgUm0hVCet1cyhKd73ZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -5508,8 +5540,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.25.8_happy-dom@8.1.0:
-    resolution: {integrity: sha512-X75TApG2wZTJn299E/TIYevr4E9/nBo1sUtZzn0Ci5oK8qnpZAZyhwg0qCeMSakGIWtc6oRwcQFyFfW14aOFWg==}
+  /vitest/0.26.2_happy-dom@8.1.1:
+    resolution: {integrity: sha512-Jvqxh6SDy9SsuslkDjts0iDewDIdq4rveEt69YgDuAb1tVDGV0lDepVaeAFraoySWqneJmOt4TngFFNhlw7GfA==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -5537,7 +5569,7 @@ packages:
       acorn-walk: 8.2.0
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 8.1.0
+      happy-dom: 8.1.1
       local-pkg: 0.4.2
       source-map: 0.6.1
       strip-literal: 1.0.0
@@ -5545,6 +5577,7 @@ packages:
       tinypool: 0.3.0
       tinyspy: 1.0.2
       vite: 4.0.3_@types+node@17.0.34
+      vite-node: 0.26.2_@types+node@17.0.34
     transitivePeerDependencies:
       - less
       - sass
