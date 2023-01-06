@@ -5,7 +5,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.48.0
   '@typescript-eslint/parser': 5.48.0
   '@vitest/coverage-c8': 0.26.3
-  '@vue/test-utils': 2.2.6
+  '@vue/test-utils': 2.2.7
   conventional-changelog-conventionalcommits: 5.0.0
   esbuild: 0.16.13
   eslint: 8.31.0
@@ -34,7 +34,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.48.0_k73wpmdolxikpyqun3p36akaaq
   '@typescript-eslint/parser': 5.48.0_iukboom6ndih5an6iafl45j2fe
   '@vitest/coverage-c8': 0.26.3_happy-dom@8.1.1
-  '@vue/test-utils': 2.2.6_vue@3.2.45
+  '@vue/test-utils': 2.2.7_vue@3.2.45
   conventional-changelog-conventionalcommits: 5.0.0
   esbuild: 0.16.13
   eslint: 8.31.0
@@ -1122,8 +1122,8 @@ packages:
     resolution: {integrity: sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==}
     dev: true
 
-  /@vue/test-utils/2.2.6_vue@3.2.45:
-    resolution: {integrity: sha512-64zHtJZdG7V/U2L0j/z3Pt5bSygccI3xs+Kl7LB73AZK4MQ8WONJhqDQPK8leUFFA9CmmoJygeky7zcl2hX10A==}
+  /@vue/test-utils/2.2.7_vue@3.2.45:
+    resolution: {integrity: sha512-BMuoruUFTEqhLoOgsMcgNVMiByYbfHCKGr2C4CPdGtz/affUtDVX5zr1RnPuq0tYSiaqq+Enw5voUpG6JY8Q7g==}
     peerDependencies:
       vue: ^3.0.1
     dependencies:
