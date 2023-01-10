@@ -72,5 +72,5 @@
       "vue"
     ]
   },
-  "packageManager": "pnpm@7.22.0"
+  "packageManager": "pnpm@7.24.2"
 }
