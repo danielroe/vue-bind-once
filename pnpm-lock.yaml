@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: 8.6.0
   eslint-plugin-prettier: 4.2.1
   expect-type: 0.15.0
-  happy-dom: 8.2.0
+  happy-dom: 8.2.2
   husky: 8.0.3
   lint-staged: 13.1.0
   pinst: 3.0.0
@@ -33,7 +33,7 @@ devDependencies:
   '@release-it/conventional-changelog': 5.1.1_release-it@15.6.0
   '@typescript-eslint/eslint-plugin': 5.49.0_rsaczafy73x3xqauzesvzbsgzy
   '@typescript-eslint/parser': 5.49.0_zkdaqh7it7uc4cvz2haft7rc6u
-  '@vitest/coverage-c8': 0.28.3_happy-dom@8.2.0
+  '@vitest/coverage-c8': 0.28.3_happy-dom@8.2.2
   '@vue/test-utils': 2.2.8_vue@3.2.45
   conventional-changelog-conventionalcommits: 5.0.0
   esbuild: 0.17.5
@@ -41,7 +41,7 @@ devDependencies:
   eslint-config-prettier: 8.6.0_eslint@8.33.0
   eslint-plugin-prettier: 4.2.1_jqplj6qf3uqpxpu4gdyhwwasnq
   expect-type: 0.15.0
-  happy-dom: 8.2.0
+  happy-dom: 8.2.2
   husky: 8.0.3
   lint-staged: 13.1.0
   pinst: 3.0.0
@@ -51,7 +51,7 @@ devDependencies:
   typescript: 4.9.4
   unbuild: 1.1.1
   vite: 4.0.4
-  vitest: 0.28.3_happy-dom@8.2.0
+  vitest: 0.28.3_happy-dom@8.2.2
   vue: 3.2.45
 
 packages:
@@ -1201,13 +1201,13 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitest/coverage-c8/0.28.3_happy-dom@8.2.0:
+  /@vitest/coverage-c8/0.28.3_happy-dom@8.2.2:
     resolution: {integrity: sha512-3Toi4flNyxwSSYohhV3/euFSyrHjaD9vJVwFVcy84lcRHMEkv0W7pxlqZZeCvPdktN+WETbNazx3WWBs0jqhVQ==}
     dependencies:
       c8: 7.12.0
       picocolors: 1.0.0
       std-env: 3.3.1
-      vitest: 0.28.3_happy-dom@8.2.0
+      vitest: 0.28.3_happy-dom@8.2.2
     transitivePeerDependencies:
       - '@edge-runtime/vm'
       - '@vitest/browser'
@@ -3039,8 +3039,8 @@ packages:
       uglify-js: 3.16.0
     dev: true
 
-  /happy-dom/8.2.0:
-    resolution: {integrity: sha512-SBMi/ht8zvtXNuSVpXJu+hOEJtNEbM4CxQukcHMm7FCd1sMuitfESwUMX83gl3C2JcEGLcpx/+JnF+rjGl27+A==}
+  /happy-dom/8.2.2:
+    resolution: {integrity: sha512-Glf3mOxTmh0ZdrvoPpbr0kc2Mg6OWCyLf8j36Jyj1EAR3Vs0LLEaZ9HSOWFR9ZwCsBW6YgybT9slJlR9dTxEGA==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -5660,7 +5660,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.28.3_happy-dom@8.2.0:
+  /vitest/0.28.3_happy-dom@8.2.2:
     resolution: {integrity: sha512-N41VPNf3VGJlWQizGvl1P5MGyv3ZZA2Zvh+2V8L6tYBAAuqqDK4zExunT1Cdb6dGfZ4gr+IMrnG8d4Z6j9ctPw==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -5694,7 +5694,7 @@ packages:
       cac: 6.7.14
       chai: 4.3.7
       debug: 4.3.4
-      happy-dom: 8.2.0
+      happy-dom: 8.2.2
       local-pkg: 0.4.2
       pathe: 1.1.0
       picocolors: 1.0.0
