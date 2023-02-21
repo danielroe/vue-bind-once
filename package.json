@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "5.52.0",
     "@typescript-eslint/parser": "5.52.0",
     "@vitest/coverage-c8": "0.28.4",
-    "@vue/test-utils": "2.2.10",
+    "@vue/test-utils": "2.3.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "esbuild": "0.17.8",
     "eslint": "8.34.0",
