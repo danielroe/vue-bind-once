@@ -46,7 +46,7 @@
     "@vitest/coverage-c8": "0.29.2",
     "@vue/test-utils": "2.3.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "esbuild": "0.17.8",
+    "esbuild": "0.17.11",
     "eslint": "8.35.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier": "4.2.1",
