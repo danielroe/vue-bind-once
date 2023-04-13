@@ -59,7 +59,7 @@
     "release-it": "15.10.1",
     "semver": "7.4.0",
     "typescript": "5.0.4",
-    "unbuild": "1.2.0",
+    "unbuild": "1.2.1",
     "vite": "4.2.1",
     "vitest": "0.29.8",
     "vue": "3.2.47"
