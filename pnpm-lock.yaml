@@ -19,7 +19,7 @@ specifiers:
   prettier: 2.8.7
   release-it: 15.10.1
   scule: ^1.0.0
-  semver: 7.4.0
+  semver: 7.5.0
   typescript: 5.0.4
   unbuild: 1.2.1
   vite: 4.2.1
@@ -47,7 +47,7 @@ devDependencies:
   pinst: 3.0.0
   prettier: 2.8.7
   release-it: 15.10.1
-  semver: 7.4.0
+  semver: 7.5.0
   typescript: 5.0.4
   unbuild: 1.2.1
   vite: 4.2.1
@@ -959,7 +959,7 @@ packages:
       grapheme-splitter: 1.0.4
       ignore: 5.2.0
       natural-compare-lite: 1.4.0
-      semver: 7.4.0
+      semver: 7.5.0
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -1033,7 +1033,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.4.0
+      semver: 7.5.0
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -1054,7 +1054,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.0_typescript@5.0.4
       eslint: 8.38.0
       eslint-scope: 5.1.1
-      semver: 7.4.0
+      semver: 7.5.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1744,7 +1744,7 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       md5-hex: 3.0.1
-      semver: 7.4.0
+      semver: 7.5.0
       well-known-symbols: 2.0.0
     dev: true
 
@@ -4051,7 +4051,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.9.0
-      semver: 7.4.0
+      semver: 7.5.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -4284,7 +4284,7 @@ packages:
       got: 12.6.0
       registry-auth-token: 5.0.1
       registry-url: 6.0.1
-      semver: 7.4.0
+      semver: 7.5.0
     dev: true
 
   /parent-module/1.0.1:
@@ -4851,7 +4851,7 @@ packages:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
     engines: {node: '>=12'}
     dependencies:
-      semver: 7.4.0
+      semver: 7.5.0
     dev: true
 
   /semver/5.7.1:
@@ -4872,8 +4872,8 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /semver/7.4.0:
-    resolution: {integrity: sha512-RgOxM8Mw+7Zus0+zcLEUn8+JfoLpj/huFTItQy2hsM4khuC1HYRDp0cU482Ewn/Fcy6bCjufD8vAj7voC66KQw==}
+  /semver/7.5.0:
+    resolution: {integrity: sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -5493,7 +5493,7 @@ packages:
       is-yarn-global: 0.4.0
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.4.0
+      semver: 7.5.0
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
     dev: true
