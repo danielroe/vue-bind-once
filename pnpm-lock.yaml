@@ -22,7 +22,7 @@ specifiers:
   semver: 7.5.0
   typescript: 5.0.4
   unbuild: 1.2.1
-  vite: 4.2.1
+  vite: 4.3.1
   vitest: 0.30.1
   vue: 3.2.47
 
@@ -50,7 +50,7 @@ devDependencies:
   semver: 7.5.0
   typescript: 5.0.4
   unbuild: 1.2.1
-  vite: 4.2.1
+  vite: 4.3.1
   vitest: 0.30.1_happy-dom@9.7.1
   vue: 3.2.47
 
@@ -5539,7 +5539,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.2.1_@types+node@17.0.34
+      vite: 4.3.1_@types+node@17.0.34
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5550,8 +5550,8 @@ packages:
       - terser
     dev: true
 
-  /vite/4.2.1:
-    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
+  /vite/4.3.1:
+    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5577,14 +5577,13 @@ packages:
     dependencies:
       esbuild: 0.17.17
       postcss: 8.4.21
-      resolve: 1.22.1
       rollup: 3.20.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.2.1_@types+node@17.0.34:
-    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
+  /vite/4.3.1_@types+node@17.0.34:
+    resolution: {integrity: sha512-EPmfPLAI79Z/RofuMvkIS0Yr091T2ReUoXQqc5ppBX/sjFRhHKiPPF/R46cTdoci/XgeQpB23diiJxq5w30vdg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5611,7 +5610,6 @@ packages:
       '@types/node': 17.0.34
       esbuild: 0.17.17
       postcss: 8.4.21
-      resolve: 1.22.1
       rollup: 3.20.2
     optionalDependencies:
       fsevents: 2.3.2
@@ -5672,7 +5670,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.4.0
       tinypool: 0.4.0
-      vite: 4.2.1_@types+node@17.0.34
+      vite: 4.3.1_@types+node@17.0.34
       vite-node: 0.30.1_@types+node@17.0.34
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
