@@ -53,7 +53,7 @@
     "expect-type": "0.15.0",
     "happy-dom": "9.9.2",
     "husky": "8.0.3",
-    "lint-staged": "13.2.1",
+    "lint-staged": "13.2.2",
     "pinst": "3.0.0",
     "prettier": "2.8.8",
     "release-it": "15.10.1",
