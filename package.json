@@ -51,7 +51,7 @@
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-prettier": "4.2.1",
     "expect-type": "0.15.0",
-    "happy-dom": "9.9.2",
+    "happy-dom": "9.10.1",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
     "pinst": "3.0.0",
