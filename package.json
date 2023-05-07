@@ -30,21 +30,20 @@
     "lint:eslint": "eslint --fix",
     "lint:prettier": "prettier --write --loglevel warn",
     "prepare": "husky install && npm run build",
-    "prepublishOnly": "npm run lint && npm run test && pinst --disable",
-    "release": "release-it",
+    "prepublishOnly": "npm run lint && npm run test",
+    "release": "bumpp && npm publish",
     "test": "vitest run",
-    "postinstall": "husky install",
-    "postpublish": "pinst --enable"
+    "postinstall": "husky install"
   },
   "dependencies": {
     "scule": "^1.0.0"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "5.1.1",
     "@typescript-eslint/eslint-plugin": "5.59.2",
     "@typescript-eslint/parser": "5.59.2",
     "@vitest/coverage-c8": "0.31.0",
     "@vue/test-utils": "2.3.2",
+    "bumpp": "^9.1.0",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "esbuild": "0.17.18",
     "eslint": "8.40.0",
@@ -54,10 +53,7 @@
     "happy-dom": "9.10.9",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
-    "pinst": "3.0.0",
     "prettier": "2.8.8",
-    "release-it": "15.10.3",
-    "semver": "7.5.0",
     "typescript": "5.0.4",
     "unbuild": "1.2.1",
     "vite": "4.3.5",
