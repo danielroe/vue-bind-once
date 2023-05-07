@@ -1,6 +1,6 @@
 {
   "name": "vue-bind-once",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A tiny, SSR-safe directive for binding random data to an element.",
   "keywords": [
     "vue",
