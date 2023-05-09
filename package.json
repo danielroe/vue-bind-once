@@ -32,8 +32,7 @@
     "prepare": "husky install && npm run build",
     "prepublishOnly": "npm run lint && npm run test",
     "release": "bumpp && npm publish",
-    "test": "vitest run",
-    "postinstall": "husky install"
+    "test": "vitest run"
   },
   "dependencies": {
     "scule": "^1.0.0"
