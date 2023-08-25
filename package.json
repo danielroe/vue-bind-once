@@ -51,7 +51,7 @@
     "expect-type": "0.16.0",
     "happy-dom": "10.10.4",
     "husky": "8.0.3",
-    "lint-staged": "13.3.0",
+    "lint-staged": "14.0.1",
     "prettier": "3.0.2",
     "typescript": "5.1.6",
     "unbuild": "1.2.1",
