@@ -28,7 +28,7 @@
     "lint:all:eslint": "npm run lint:eslint -- --ext .js,.ts .",
     "lint:all:prettier": "npm run lint:prettier -- \"{src,test}/**/*.{js,json,ts}\"",
     "lint:eslint": "eslint --fix",
-    "lint:prettier": "prettier --write --loglevel warn",
+    "lint:prettier": "prettier --write --log-level warn",
     "prepare": "husky install && npm run build",
     "prepublishOnly": "npm run lint && npm run test",
     "release": "bumpp && npm publish",
