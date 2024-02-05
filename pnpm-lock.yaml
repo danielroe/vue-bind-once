@@ -20,8 +20,8 @@ devDependencies:
     specifier: 1.0.4
     version: 1.0.4(vitest@1.0.4)
   '@vue/test-utils':
-    specifier: 2.4.3
-    version: 2.4.3(vue@3.3.9)
+    specifier: 2.4.4
+    version: 2.4.4(vue@3.3.9)
   bumpp:
     specifier: 9.2.1
     version: 9.2.1
@@ -1344,8 +1344,8 @@ packages:
     resolution: {integrity: sha512-ZE0VTIR0LmYgeyhurPTpy4KzKsuDyQbMSdM49eKkMnT5X4VfFBLysMzjIZhLEFQYjjOVVfbvUDHckwjDFiO2eA==}
     dev: true
 
-  /@vue/test-utils@2.4.3(vue@3.3.9):
-    resolution: {integrity: sha512-F4K7mF+ad++VlTrxMJVRnenKSJmO6fkQt2wpRDiKDesQMkfpniGWsqEi/JevxGBo2qEkwwjvTUAoiGJLNx++CA==}
+  /@vue/test-utils@2.4.4(vue@3.3.9):
+    resolution: {integrity: sha512-8jkRxz8pNhClAf4Co4ZrpAoFISdvT3nuSkUlY6Ys6rmTpw3DMWG/X3mw3gQ7QJzgCZO9f+zuE2kW57fi09MW7Q==}
     peerDependencies:
       '@vue/server-renderer': ^3.0.1
       vue: ^3.0.1
