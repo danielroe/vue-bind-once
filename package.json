@@ -38,8 +38,8 @@
     "scule": "^1.0.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.21.0",
-    "@typescript-eslint/parser": "6.21.0",
+    "@typescript-eslint/eslint-plugin": "7.3.1",
+    "@typescript-eslint/parser": "7.3.1",
     "@vitest/coverage-v8": "1.0.4",
     "@vue/test-utils": "2.4.4",
     "bumpp": "9.3.0",
