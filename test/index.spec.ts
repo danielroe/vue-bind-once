@@ -56,7 +56,7 @@ describe('directive', () => {
     })
     app.use(BindOncePlugin)
     app.mount('#app')
-    expect(document.documentElement.innerHTML).toBe(body)
+    expect(document.querySelector('body')!.outerHTML).toBe(body)
   })
 })
 
