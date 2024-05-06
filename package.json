@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "7.6.0",
     "@vitest/coverage-v8": "1.4.0",
     "@vue/test-utils": "2.4.5",
-    "bumpp": "9.4.0",
+    "bumpp": "9.4.1",
     "conventional-changelog-conventionalcommits": "7.0.2",
     "esbuild": "0.20.2",
     "eslint": "8.57.0",
