@@ -44,7 +44,7 @@
     "@vue/test-utils": "2.4.6",
     "bumpp": "9.5.2",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "esbuild": "0.23.0",
+    "esbuild": "0.23.1",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
