@@ -1,5 +1,5 @@
-import { kebabCase } from 'scule'
 import type { Directive, Plugin } from 'vue'
+import { kebabCase } from 'scule'
 
 export const BindOnceDirective: Directive<HTMLElement> = {
   created: (el, binding) => {
@@ -12,13 +12,14 @@ export const BindOnceDirective: Directive<HTMLElement> = {
   },
   getSSRProps(binding) {
     /* c8 ignore next */
-    if (!binding.value) return {}
+    if (!binding.value)
+      return {}
 
     return Object.fromEntries(
       Object.entries(binding.value).map(([key, value]) => [
         kebabCase(key),
         value,
-      ])
+      ]),
     )
   },
 }

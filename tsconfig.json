@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "sourceMap": true,
     "target": "esnext",
-    "module": "esnext",
-    "allowSyntheticDefaultImports": true,
     "lib": ["esnext", "dom"],
-    "moduleResolution": "node",
     "rootDir": ".",
-    "outDir": "lib",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
     "declaration": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true
   },
   "include": ["src", "test"]
