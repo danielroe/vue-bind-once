@@ -1,10 +1,12 @@
-import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
+import { describe, expect, it } from 'vitest'
 
-import { renderToString } from 'vue/server-renderer'
 import { createApp, createSSRApp, reactive } from 'vue'
+import { renderToString } from 'vue/server-renderer'
 
 import { BindOnceDirective, BindOncePlugin } from '../src'
+
+const sampleRender = '<div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div>'
 
 describe('directive', () => {
   it('does nothing with no binding', () => {
@@ -25,7 +27,7 @@ describe('directive', () => {
         template: `<div v-bind-once="boundData"></div>`,
         setup: () => ({ boundData: reactive(sampleData()) }),
       },
-      { global: { plugins: [BindOncePlugin] } }
+      { global: { plugins: [BindOncePlugin] } },
     )
     expect(wrapper.html()).toBe(sampleRender)
   })
@@ -50,7 +52,7 @@ describe('directive', () => {
       template: `<div v-bind-once="boundData"></div>`,
       data: () => ({
         boundData: Object.fromEntries(
-          Object.keys(sampleData()).map(k => [k, Math.random()])
+          Object.keys(sampleData()).map(k => [k, Math.random()]),
         ),
       }),
     })
@@ -60,27 +62,27 @@ describe('directive', () => {
   })
 })
 
-const sampleData = () => ({
-  id: 'test-value',
-  num: 42,
-  bool: true,
-  camelCase: 'camel',
-  'kebab-case': 'kebab',
-})
+function sampleData() {
+  return {
+    'id': 'test-value',
+    'num': 42,
+    'bool': true,
+    'camelCase': 'camel',
+    'kebab-case': 'kebab',
+  }
+}
 
-const sampleRender =
-  '<div id="test-value" num="42" bool="true" camel-case="camel" kebab-case="kebab"></div>'
-
-const elementWithDirective = (binding?: Record<string, any>) =>
-  mount(
+function elementWithDirective(binding?: Record<string, any>) {
+  return mount(
     {
       template:
         binding !== undefined
           ? `<div v-bind-once="${JSON.stringify(binding).replace(
-              /"/g,
-              "'"
-            )}"></div>`
+            /"/g,
+            '\'',
+          )}"></div>`
           : `<div v-bind-once></div>`,
     },
-    { global: { plugins: [BindOncePlugin] } }
+    { global: { plugins: [BindOncePlugin] } },
   )
+}

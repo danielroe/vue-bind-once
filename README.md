@@ -40,8 +40,8 @@ npm install vue-bind-once --save
 
 ```ts
 import { createApp } from 'vue'
-import App from './App.vue'
 import { BindOnceDirective, BindOncePlugin } from 'vue-bind-once'
+import App from './App.vue'
 
 const app = createApp(App)
 app.use(BindOncePlugin)
@@ -53,7 +53,7 @@ In most cases you'll be using this directive with an SSR-rendering framework lik
 ```js
 import { BindOncePlugin } from 'vue-bind-once'
 
-export default defineNuxtPlugin(nuxtApp => {
+export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(BindOncePlugin)
 })
 ```
