@@ -41,7 +41,7 @@
     "@antfu/eslint-config": "4.2.1",
     "@typescript-eslint/eslint-plugin": "8.24.1",
     "@typescript-eslint/parser": "8.24.1",
-    "@vitest/coverage-v8": "3.0.6",
+    "@vitest/coverage-v8": "3.0.7",
     "@vue/test-utils": "2.4.6",
     "bumpp": "10.0.3",
     "conventional-changelog-conventionalcommits": "8.0.0",
@@ -54,7 +54,7 @@
     "typescript": "5.7.3",
     "unbuild": "3.3.1",
     "vite": "6.1.0",
-    "vitest": "3.0.6",
+    "vitest": "3.0.7",
     "vue": "3.5.13"
   },
   "build": {
