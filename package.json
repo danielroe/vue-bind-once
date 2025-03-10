@@ -46,7 +46,7 @@
     "bumpp": "10.0.3",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "esbuild": "0.25.1",
-    "eslint": "9.21.0",
+    "eslint": "9.22.0",
     "expect-type": "1.2.0",
     "happy-dom": "17.1.8",
     "lint-staged": "15.4.3",
