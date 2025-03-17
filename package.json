@@ -48,7 +48,7 @@
     "esbuild": "0.25.1",
     "eslint": "9.22.0",
     "expect-type": "1.2.0",
-    "happy-dom": "17.4.3",
+    "happy-dom": "17.4.4",
     "lint-staged": "15.5.0",
     "simple-git-hooks": "2.11.1",
     "typescript": "5.8.2",
