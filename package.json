@@ -47,7 +47,7 @@
     "conventional-changelog-conventionalcommits": "8.0.0",
     "esbuild": "0.25.2",
     "eslint": "9.23.0",
-    "expect-type": "1.2.0",
+    "expect-type": "1.2.1",
     "happy-dom": "17.4.4",
     "lint-staged": "15.5.0",
     "simple-git-hooks": "2.12.1",
