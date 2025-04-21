@@ -22,8 +22,8 @@ importers:
         specifier: 8.30.1
         version: 8.30.1(eslint@9.25.0(jiti@2.4.2))(typescript@5.8.3)
       '@vitest/coverage-v8':
-        specifier: 3.1.1
-        version: 3.1.1(vitest@3.1.2(@types/debug@4.1.12)(happy-dom@17.4.4)(jiti@2.4.2)(yaml@2.7.0))
+        specifier: 3.1.2
+        version: 3.1.2(vitest@3.1.2(@types/debug@4.1.12)(happy-dom@17.4.4)(jiti@2.4.2)(yaml@2.7.0))
       '@vue/test-utils':
         specifier: 2.4.6
         version: 2.4.6
@@ -968,11 +968,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vitest/coverage-v8@3.1.1':
-    resolution: {integrity: sha512-MgV6D2dhpD6Hp/uroUoAIvFqA8AuvXEFBC2eepG3WFc1pxTfdk1LEqqkWoWhjz+rytoqrnUUCdf6Lzco3iHkLQ==}
+  '@vitest/coverage-v8@3.1.2':
+    resolution: {integrity: sha512-XDdaDOeaTMAMYW7N63AqoK32sYUWbXnTkC6tEbVcu3RlU1bB9of32T+PGf8KZvxqLNqeXhafDFqCkwpf2+dyaQ==}
     peerDependencies:
-      '@vitest/browser': 3.1.1
-      vitest: 3.1.1
+      '@vitest/browser': 3.1.2
+      vitest: 3.1.2
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
@@ -2708,9 +2708,6 @@ packages:
   stackback@0.0.2:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
 
-  std-env@3.8.1:
-    resolution: {integrity: sha512-vj5lIj3Mwf9D79hBkltk5qmkFI+biIKWS2IBxEyEU3AX1tUf7AoL8nSazCOiiqQsGKIq01SClsKEzweu34uwvA==}
-
   std-env@3.9.0:
     resolution: {integrity: sha512-UGvjygr6F6tpH7o2qyqR6QYpwraIjKSdtzyBdyytFOHmPZY917kwdwLG0RbOjWOnKmnm3PeHjaoLLMie7kPLQw==}
 
@@ -3772,7 +3769,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.5.0':
     optional: true
 
-  '@vitest/coverage-v8@3.1.1(vitest@3.1.2(@types/debug@4.1.12)(happy-dom@17.4.4)(jiti@2.4.2)(yaml@2.7.0))':
+  '@vitest/coverage-v8@3.1.2(vitest@3.1.2(@types/debug@4.1.12)(happy-dom@17.4.4)(jiti@2.4.2)(yaml@2.7.0))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -3783,7 +3780,7 @@ snapshots:
       istanbul-reports: 3.1.7
       magic-string: 0.30.17
       magicast: 0.3.5
-      std-env: 3.8.1
+      std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
       vitest: 3.1.2(@types/debug@4.1.12)(happy-dom@17.4.4)(jiti@2.4.2)(yaml@2.7.0)
@@ -5827,8 +5824,6 @@ snapshots:
   stable-hash@0.0.5: {}
 
   stackback@0.0.2: {}
-
-  std-env@3.8.1: {}
 
   std-env@3.9.0: {}
 
