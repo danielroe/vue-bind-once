@@ -53,7 +53,7 @@
     "simple-git-hooks": "2.13.1",
     "typescript": "5.9.3",
     "unbuild": "3.6.1",
-    "vite": "7.2.6",
+    "vite": "7.2.7",
     "vitest": "4.0.15",
     "vue": "3.5.25"
   },
