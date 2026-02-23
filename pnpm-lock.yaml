@@ -46,7 +46,7 @@ importers:
         specifier: 20.6.1
         version: 20.6.1
       nano-staged:
-        specifier: ^0.9.0
+        specifier: 0.9.0
         version: 0.9.0
       simple-git-hooks:
         specifier: 2.13.1
