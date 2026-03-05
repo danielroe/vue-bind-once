@@ -2,14 +2,14 @@
 <p align="center">A tiny, SSR-safe directive for binding random data to an element.</p>
 
 <p align="center">
-<a href="https://npmjs.com/package/vue-bind-once">
-    <img alt="" src="https://img.shields.io/npm/v/vue-bind-once/latest.svg?style=flat-square">
+<a href="https://npmx.dev/package/vue-bind-once">
+    <img alt="" src="https://npmx.dev/api/registry/badge/version/vue-bind-once">
 </a>
 <a href="https://bundlephobia.com/result?p=vue-bind-once">
     <img alt="" src="https://img.shields.io/bundlephobia/minzip/vue-bind-once?style=flat-square">
 </a>
-<a href="https://npmjs.com/package/vue-bind-once">
-    <img alt="" src="https://img.shields.io/npm/dt/vue-bind-once.svg?style=flat-square">
+<a href="https://npmx.dev/package/vue-bind-once">
+    <img alt="" src="https://npmx.dev/api/registry/badge/downloads/vue-bind-once">
 </a>
 <a href="https://lgtm.com/projects/g/danielroe/vue-bind-once">
     <img alt="" src="https://img.shields.io/lgtm/alerts/github/danielroe/vue-bind-once?style=flat-square">
