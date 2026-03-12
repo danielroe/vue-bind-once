@@ -1,7 +1,7 @@
 {
   "name": "vue-bind-once",
   "version": "0.2.1",
-  "packageManager": "pnpm@10.30.3",
+  "packageManager": "pnpm@10.32.1",
   "description": "A tiny, SSR-safe directive for binding random data to an element.",
   "author": {
     "name": "Daniel Roe <daniel@roe.dev>",
@@ -38,13 +38,13 @@
     "scule": "^1.3.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "7.6.1",
+    "@antfu/eslint-config": "7.7.2",
     "@typescript-eslint/eslint-plugin": "8.57.0",
     "@typescript-eslint/parser": "8.57.0",
     "@vitest/coverage-v8": "4.0.18",
     "@vue/test-utils": "2.4.6",
     "bumpp": "10.4.1",
-    "conventional-changelog-conventionalcommits": "9.2.0",
+    "conventional-changelog-conventionalcommits": "9.3.0",
     "esbuild": "0.27.3",
     "eslint": "10.0.3",
     "expect-type": "1.3.0",
