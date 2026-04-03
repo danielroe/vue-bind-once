@@ -55,7 +55,7 @@
     "unbuild": "3.6.1",
     "vite": "8.0.3",
     "vitest": "4.1.2",
-    "vue": "3.5.31"
+    "vue": "3.5.32"
   },
   "build": {
     "externals": [
