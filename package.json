@@ -51,7 +51,7 @@
     "happy-dom": "20.9.0",
     "nano-staged": "1.0.2",
     "simple-git-hooks": "2.13.1",
-    "typescript": "6.0.2",
+    "typescript": "6.0.3",
     "unbuild": "3.6.1",
     "vite": "8.0.9",
     "vitest": "4.1.4",
