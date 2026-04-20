@@ -39,8 +39,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "8.2.0",
-    "@typescript-eslint/eslint-plugin": "8.58.2",
-    "@typescript-eslint/parser": "8.58.2",
+    "@typescript-eslint/eslint-plugin": "8.59.0",
+    "@typescript-eslint/parser": "8.59.0",
     "@vitest/coverage-v8": "4.1.4",
     "@vue/test-utils": "2.4.6",
     "bumpp": "11.0.1",
