@@ -60,7 +60,7 @@
     "esbuild": "0.28.2",
     "eslint": "10.9.1",
     "expect-type": "1.4.0",
-    "happy-dom": "20.12.0",
+    "happy-dom": "20.14.0",
     "nano-staged": "1.0.2",
     "simple-git-hooks": "2.14.0",
     "tsdown": "0.22.14",
