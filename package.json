@@ -69,7 +69,7 @@
     "bumpp": "12.2.2",
     "conventional-changelog-conventionalcommits": "10.4.0",
     "esbuild": "0.28.2",
-    "eslint": "10.10.0",
+    "eslint": "10.11.0",
     "expect-type": "1.4.0",
     "happy-dom": "20.14.5",
     "nano-staged": "1.0.2",
