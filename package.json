@@ -64,7 +64,7 @@
     "@antfu/eslint-config": "9.3.0",
     "@typescript-eslint/eslint-plugin": "8.70.0",
     "@typescript-eslint/parser": "8.70.0",
-    "@vitest/coverage-v8": "5.0.0",
+    "@vitest/coverage-v8": "5.0.1",
     "@vue/test-utils": "2.5.0",
     "bumpp": "12.2.2",
     "conventional-changelog-conventionalcommits": "10.4.0",
@@ -77,7 +77,7 @@
     "tsdown": "0.22.14",
     "typescript": "6.0.3",
     "vite": "8.3.0",
-    "vitest": "5.0.0",
+    "vitest": "5.0.1",
     "vue": "3.5.42"
   },
   "simple-git-hooks": {
