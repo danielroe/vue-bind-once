@@ -22,6 +22,27 @@
 </a>
 </p>
 
+<!-- prettier-ignore -->
+> [!WARNING]
+> `vue-bind-once` is deprecated. Vue 3.5 and later ship [`useId()`](https://vuejs.org/api/composition-api-helpers#useid), which generates IDs that are stable across server rendering and hydration.
+
+## Migrating to `useId()`
+
+Replace the directive with a regular binding to an ID from `useId()`:
+
+```html
+<script setup>
+  import { useId } from 'vue'
+  const id = useId()
+</script>
+<template>
+  <input type="text" :id="id" :name="id" />
+  <label :for="id" />
+</template>
+```
+
+Then remove `vue-bind-once` from your dependencies, along with any `BindOncePlugin` or `BindOnceDirective` registration.
+
 > A tiny, SSR-safe directive for binding random data to an element.
 
 ## Quick Start
